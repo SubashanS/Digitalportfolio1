@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4c4c4c;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #262626;
+            color: #c3c3c3;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fffefe;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #2a2a2a;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(220, 18, 18, 0.1);
+            max-width: 300px;
+            color: white;
+        }
+
+        .product img {
+            max-width: 100%;
+        }
+
+        .product h2 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #b7b7b7;
+        }
+
+        .product button {
+            background-color: #000000;
+            color: #c1c1c1;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #3f3f3f;
+            color: #7d7d7d;
+            padding: 10px 0;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>i store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        <article class="product">
+            <img src="mobile1.jpg" alt="Mobile Phone 1">
+            <h2>i phone 15 Pro Max</h2>
+            <p>With Dynamic Island</p>
+            <p>Price: $1199.99</p>
+            <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="mobile2.jpg" alt="Mobile Phone 2">
+            <h2>Macbook Pro</h2>
+            <p>With M2 Chip Inside</p>
+            <p>Price: $1599.99</p>
+            <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="mobile3.jpg" alt="Mobile Phone 2">
+            <h2>Apple Air pods pro</h2>
+            <p>With AI Noise Cancellation Inside</p>
+            <p>Price: $299.99</p>
+            <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="mobile4.jpg" alt="Mobile Phone 2">
+            <h2>Mac Mini</h2>
+            <p>With M2 ultra Chip Inside</p>
+            <p>Price: $1099.99</p>
+            <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="mobile5.jpg" alt="Mobile Phone 2">
+            <h2>i Mac pro</h2>
+            <p>With M2 chip Inside</p>
+            <p>Price: $1499.99</p>
+            <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="mobile6.jpg" alt="Mobile Phone 2">
+            <h2>Apple Watch Ultra</h2>
+            <p>With 2000 Nits Display</p>
+            <p>Price: $999.99</p>
+            <button>Add to Cart</button>
+        </article>
+
+
+    </section>
+
+    <footer>
+        <p>&copy; I store</p>
+    </footer>
+</body>
+</html>
